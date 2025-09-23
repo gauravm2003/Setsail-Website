@@ -1,0 +1,107 @@
+
+
+? 1. JSX (JavaScript XML)
+
+Writing HTML-like code inside JavaScript
+
+
+Embedding JavaScript expressions using {}
+
+
+
+? 2. Components
+
+Functional components (use functions instead of classes)
+
+
+Reusability of components
+
+
+Passing data with props
+
+
+
+? 3. State Management (useState)
+
+Using useState to store and update values
+
+
+Controlled components (e.g., forms, inputs)
+
+
+
+? 4. Event Handling
+
+Handling user interactions like onClick, onChange, etc.
+
+
+Preventing default form submissions
+
+
+
+? 5. Conditional Rendering
+
+Using if, ternary (? :), and logical operators (&&) to render components conditionally
+
+
+
+? 6. Lists and Keys
+
+Rendering lists using .map()
+
+
+Importance of unique key props
+
+
+
+? 7. Forms in React
+
+Controlled inputs using useState
+
+
+Handling form submission and validation
+
+
+
+? 8. useEffect Hook
+
+Running side effects (e.g., API calls, timers)
+
+
+Understanding dependencies and cleanup functions
+
+
+
+? 9. Basic Routing (react-router-dom)
+
+Navigating between pages (<BrowserRouter>, <Routes>, <Route>, <Link>)
+
+
+Dynamic routing with parameters
+
+
+
+? 10. Component Composition & Props Drilling
+
+Passing props between multiple components
+
+
+Structuring reusable and nested components
+
+
+
+? 11. Basic Styling
+
+Inline styles, CSS Modules, or external stylesheets
+
+
+Optional: Tailwind CSS or Bootstrap for faster UI development
+
+
+
+? 12. Fetching Data from APIs
+
+Using fetch or axios inside useEffect
+
+
+Handling loading and error states

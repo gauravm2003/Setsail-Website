@@ -1,0 +1,124 @@
+footer {
+    padding-top: 80px;
+    background-color: #161616;
+    color: white;
+}
+
+.footer-first-column img {
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.footer-first-column a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.footer-first-column a:hover {
+    color: #3fd0d4;
+}
+
+.footer-second-column a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-second-column a:hover {
+    color: #3fd0d4;
+}
+
+.footer-second-column p {
+    color: #A9A9A9;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.footer-first-column p {
+    color: #A9A9A9;
+}
+
+.footer-third-column p {
+    color: #A9A9A9;
+}
+
+.footer-fourth-column p {
+    color: #A9A9A9;
+}
+
+.input-group span {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    background-color: #6d6d6d;
+    margin-top: 5px;
+}
+
+.input-group input {
+    margin-left: 5px !important;
+}
+
+.input-group input:focus {
+    box-shadow: none;
+}
+
+.input-group input::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-third-column input[type=text] {
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.footer-third-column input[type=email] {
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.footer-third-column input[type=submit] {
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #3fd0d4;
+    color: white;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+
+.footer-third-column input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-copyright {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright p {
+    color: #A9A9A9;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.footer-copyright a:hover {
+    color: #3fd0d4;
+}

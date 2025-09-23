@@ -1,0 +1,33 @@
+.view-trip-container {
+    background-color: #f8f9fa; /* Light background for the entire view */
+    padding-bottom: 50px; /* Space for footer */
+}
+
+.card {
+    border-radius: 0.5rem; /* Rounded corners for cards */
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.text-primary {
+    color: #3fd0d4; /* Primary color for headings */
+}
+
+.text-secondary {
+    color: #6c757d; /* Secondary color for text */
+}
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+}

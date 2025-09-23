@@ -1,0 +1,39 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(63, 208, 212, 0.08) 0%, rgba(63, 208, 212, 0.03) 100%);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(63, 208, 212, 0.15);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #3fd0d4 !important;
+  box-shadow: 0 0 0 1px #3fd0d4 !important;
+}
+
+.Hero-Button {
+  height: 50px;
+  width: 200px;
+  margin-top: 5px;
+  border: 1px solid black;
+  background-color: #3fd0d4;
+  color: white;
+  transition: 0.3s;
+  outline: none;
+  border: none;
+}
+
+.Hero-Button:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}

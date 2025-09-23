@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .flex-container {
+    margin: 20px;
+} */
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 10px 0;
+}
+
+.flex-row a {
+    transition: transform 0.5s ease;
+    margin: 10px;
+}
+
+.flex-row a:hover {
+    transform: scale(1.05);
+}
+
+.flex-row-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-row-image img{
+    filter: brightness(70%);
+}
+
+.image-circle img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center it */
+}
+
+.image-square img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.flex-row-image-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+}
+
+.details {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details p {
+    font-size: 17px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.details p:last-child {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+@media (max-width: 768px) {
+    .flex-row a {
+        width: 48%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-row a {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+}
+
+.travel-header {
+    color: black;
+    padding: 20px 0;
+}
+
+.travel-header span {
+    color: #3fd0d4;
+    font-family: Satisfy, cursive;
+    font-size: 2rem;
+    line-height: 1.8em;
+}
+
+.travel-header h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.25rem;
+}

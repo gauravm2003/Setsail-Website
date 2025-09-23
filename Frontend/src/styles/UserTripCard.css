@@ -1,0 +1,76 @@
+.trip-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: none;
+    /* Remove default border */
+    border-radius: 0.5rem;
+    /* Rounded corners for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.trip-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.image-container {
+    position: relative;
+    /* Positioning for overlay */
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.trip-image {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    /* Dark overlay for better text contrast */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.trip-card:hover .image-overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+}
+
+.trip-card:hover .trip-image {
+    transform: scale(1.05);
+}
+
+.trip-title {
+    transition: text-decoration 0.3s ease;
+    font-size: 1.25rem;
+    /* Larger title for emphasis */
+}
+
+.trip-card:hover .trip-title {
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    /* Slightly smaller text for details */
+}
+
+/* Additional styles for the card */
+.card {
+    background-color: #ffffff;
+    /* White background for cards */
+    border-radius: 0.5rem;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Prevent overflow */
+}

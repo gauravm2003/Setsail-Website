@@ -1,0 +1,46 @@
+/* Fourth Content Styles */
+
+.fourth-section {
+    padding: 30px;
+    background-color: #3fd0d4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-section input {
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+
+/* Third Content Styles */
+
+.third-section-icons i {
+    display: inline-block;
+    font-size: 60px;
+    transition: 0.3s;
+}
+
+.third-section-icons i:hover {
+    transform: translateY(-10px);
+}
+
+.third-section-icons h2 {
+    font-size: 20px;
+}
+
+.third-content {
+    margin-bottom: 20px;
+}
+
+.greetings-from-paris {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
