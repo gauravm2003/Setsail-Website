@@ -7,8 +7,8 @@ import './App.css'
 import Home from './Home/Home'
 import About from './pages/About'
 import Destination from './pages/Destination'
-import Tours from './pages/Tours'
-import Elements from './pages/Elements'
+// import Tours from './pages/Tours'
+// import Elements from './pages/Elements'
 import CreateTrip from './pages/CreateTrip'
 import ViewTrip from './view-trip/[tripID]'
 import MyTrips from './my-trips'
@@ -40,9 +40,9 @@ function App() {
 
                     <Route path="/destination" element={<Destination />} />
 
-                    <Route path="/tours" element={<Tours />} />
+                    {/* <Route path="/tours" element={<Tours />} /> */}
 
-                    <Route path="/elements" element={<Elements />} />
+                    {/* <Route path="/elements" element={<Elements />} /> */}
 
                     <Route path="/ai-trip-planner" element={<CreateTrip />} />
 

@@ -12,7 +12,8 @@ function TripPage() {
     useEffect(() => {
         const fetchTrip = async () => {
             try {
-                const res = await fetch(`http://localhost:5000/api/trips/${idOrSlug}`);
+                // const res = await fetch(`http://localhost:5000/api/trips/${idOrSlug}`);
+                const res = await fetch(`https://setsail-backend.onrender.com/api/trips/${idOrSlug}`);
                 const data = await res.json();
                 if (!res.ok) throw new Error(data.message || "Failed to load trip");
                 setTrip(data);
