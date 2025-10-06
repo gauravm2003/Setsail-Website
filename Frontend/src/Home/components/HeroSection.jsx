@@ -14,7 +14,7 @@ function HeroSection() {
                             'fontWeight': '500',
 
                         }}>
-                            Discover Your Next <span style={{ 'color': '#3fd0d4' }}>Adventure</span> With AI
+                            Discoverd Your Next <span style={{ 'color': '#3fd0d4' }}>Adventure</span> With AI
                         </h1>
 
                         <p className="text-dark mb-4 me-4">
