@@ -1,8 +1,5 @@
-// controllers/tripController.js
 const Trip = require("../models/Trip");
 
-// @desc   Create new trip
-// @route  POST /api/trips
 const createTrip = async (req, res) => {
   try {
     const trip = new Trip(req.body);
@@ -13,8 +10,6 @@ const createTrip = async (req, res) => {
   }
 };
 
-// @desc   Get all trips
-// @route  GET /api/trips
 const getTrips = async (req, res) => {
   try {
     const trips = await Trip.find();
@@ -24,8 +19,6 @@ const getTrips = async (req, res) => {
   }
 };
 
-// @desc   Get single trip
-// @route  GET /api/trips/:id
 const getTripById = async (req, res) => {
   try {
     const trip = await Trip.findById(req.params.id);
@@ -36,8 +29,6 @@ const getTripById = async (req, res) => {
   }
 };
 
-// @desc   Update trip
-// @route  PUT /api/trips/:id
 const updateTrip = async (req, res) => {
   try {
     const updatedTrip = await Trip.findByIdAndUpdate(req.params.id, req.body, {
@@ -51,8 +42,6 @@ const updateTrip = async (req, res) => {
   }
 };
 
-// @desc   Delete trip
-// @route  DELETE /api/trips/:id
 const deleteTrip = async (req, res) => {
   try {
     const deletedTrip = await Trip.findByIdAndDelete(req.params.id);
