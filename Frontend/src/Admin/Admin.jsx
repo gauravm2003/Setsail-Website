@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import AdminLogin from "./AdminLogin";
 import TripImage from '../assets/Image_1.jpg'
 
-// const API_URL = "http://localhost:5000/api/trips";
-const API_URL = "https://setsail-backend.onrender.com/api/trips";
+const API_URL = "http://localhost:5000/api/trips";
+// const API_URL = "https://setsail-backend.onrender.com/api/trips";
 
 const AdminPanel = () => {
     const [trips, setTrips] = useState([]);
