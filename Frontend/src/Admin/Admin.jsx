@@ -20,7 +20,7 @@ const AdminPanel = () => {
 
     const [message, setMessage] = useState(null);
     const [error, setError] = useState(null);
-    const [isAuthenticated, setIsAuthenticated] = useState(true); // ✅ new state
+    const [isAuthenticated, setIsAuthenticated] = useState(false); // ✅ new state
     const [loading, setLoading] = useState(false);
 
     // Helper to safely get id from trip or id string
