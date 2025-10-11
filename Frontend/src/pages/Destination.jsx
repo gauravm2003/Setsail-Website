@@ -32,7 +32,7 @@ function Destination() {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                minHeight: '300px',
+                height: '100vh',
             }}>
                 <ClipLoader color="#36d7b7" size={70} />
             </div>

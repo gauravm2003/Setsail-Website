@@ -20,6 +20,18 @@
     border: none;
 }
 
+@media screen and (max-width: 768px) {
+    
+    .fourth-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fourth-section h4 {
+        margin-bottom: 20px;
+    }
+}
+
 /* Third Content Styles */
 
 .third-section-icons i {
@@ -43,4 +55,13 @@
 .greetings-from-paris {
     margin-top: 50px;
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .greetings-from-paris {
+        height: auto;
+        width: 100%;
+    }
+
 }

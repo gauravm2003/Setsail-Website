@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify'
 // Pages..
 import './App.css'
 import Home from './Home/Home'
-import About from './pages/About'
+// import About from './pages/About'
 import Destination from './pages/Destination'
 // import Tours from './pages/Tours'
 // import Elements from './pages/Elements'
@@ -36,7 +36,7 @@ function App() {
 
                     <Route path="/" element={<Home />} />
 
-                    <Route path="/about" element={<About />} />
+                    {/* <Route path="/about" element={<About />} /> */}
 
                     <Route path="/destination" element={<Destination />} />
 

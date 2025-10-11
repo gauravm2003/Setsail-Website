@@ -84,3 +84,17 @@
 .profile i:hover {
   color: #3fd0d4;
 }
+
+.mobile-profile-icon {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .mobile-profile-icon {
+        display: block;
+    }
+
+    .search-icon {
+        display: none !important;
+    }
+}

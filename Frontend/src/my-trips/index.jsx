@@ -32,7 +32,7 @@ function MyTrips() {
         <div className="container mt-5">
             <h2 className="fw-bold fs-3 mb-4 text-center text-primary">My Trips</h2>
 
-            <div className="row g-4">
+            <div className="row g-4 mb-4">
                 {userTrips.length > 0 ? (
                     userTrips.map((trip, index) => (
                         <div className="col-12 col-md-6 col-lg-4" key={index}>

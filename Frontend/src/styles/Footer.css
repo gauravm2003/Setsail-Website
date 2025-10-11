@@ -122,3 +122,15 @@ footer {
 .footer-copyright a:hover {
     color: #3fd0d4;
 }
+
+@media (max-width: 768px) {
+    .footer-first-column, .footer-second-column, .footer-third-column, .footer-fourth-column {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-copyright {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+}

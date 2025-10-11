@@ -255,7 +255,7 @@ function Tarragona({
             </div >
 
             {/* Bottom Fixed Buttons */}
-            < div
+            {/* < div
                 className="position-fixed d-flex flex-column gap-2"
                 style={{ right: "1rem", bottom: "4rem", maxWidth: "90px", zIndex: 1030 }
                 }
@@ -269,7 +269,7 @@ function Tarragona({
                 >
                     🛒 Buy Now
                 </button>
-            </div >
+            </div > */}
         </div >
     );
 }

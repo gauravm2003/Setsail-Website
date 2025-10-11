@@ -33,9 +33,8 @@ function TripPage() {
             justifyContent: 'center',
             alignItems: 'center',
             height: '100vh',
-            backgroundColor: 'rgba(0,0,0,0.5)'
         }}>
-            <ClipLoader color="#36d7b7" size={60} />
+            <ClipLoader color="#36d7b7" size={70} />
         </div>
     );
     if (error) return <p>❌ {error}</p>;

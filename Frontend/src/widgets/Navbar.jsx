@@ -79,21 +79,84 @@ const Navbar = () => {
                         <img className="navbar-image" src={Logo} alt="SentSail" height="45px" />
                     </a>
 
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavbar"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <div className="d-flex align-items-center">
+
+                        {/* Collapsible Toggler Button */}
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar"
+                        >
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+
+                        {/* Profile Button (Visible on mobile only) */}
+                        <div className="mobile-profile-icon ms-2">
+                            {user ?
+                                <div>
+                                    <Popover.Root>
+                                        <Popover.Trigger asChild>
+                                            <img
+                                                src={user?.picture}
+                                                style={{
+                                                    width: "40px",
+                                                    height: "40px",
+                                                    borderRadius: "50%",
+                                                    border: "2px solid rgba(89, 89, 89, 1)",
+                                                    cursor: "pointer",
+                                                }}
+                                                alt="User"
+                                            />
+                                        </Popover.Trigger>
+
+                                        <Popover.Portal>
+                                            <Popover.Content
+                                                className="bg-white p-1 rounded shadow-sm"
+                                                sideOffset={8}
+                                            >
+                                                <div className="d-flex flex-column">
+
+                                                    <Link
+                                                        to="/my-trips"
+                                                        className="popover-item text-decoration-none text-dark"
+                                                    >
+                                                        My Trips
+                                                    </Link>
+
+                                                    <div className="popover-item"
+                                                        style={{
+                                                            'color': 'red'
+                                                        }}
+                                                        onClick={() => {
+                                                            googleLogout();
+                                                            localStorage.clear();
+                                                            window.location.href = '/';
+                                                        }}
+                                                    >
+                                                        Logout
+                                                    </div>
+                                                </div>
+                                            </Popover.Content>
+                                        </Popover.Portal>
+                                    </Popover.Root>
+                                </div>
+                                :
+                                <button className='profile' style={{ background: 'none', border: 'none', cursor: 'pointer' }} onClick={userSignUp}>
+
+                                    <i className="bi bi-person-circle"></i>
+
+                                </button>
+                            }
+                        </div>
+                    </div>
                 </div>
 
                 <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                     <ul className="navbar-nav">
                         {[
                             { name: 'Home', path: '/' },
-                            { name: 'About Us', path: '/about' },
+                            // { name: 'About Us', path: '/about' },
                             { name: 'Destination', path: '/destination' },
                             // { name: 'Tours', path: '/tours' },
                             // { name: 'Elements', path: '/elements' },
