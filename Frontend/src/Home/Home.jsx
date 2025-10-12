@@ -7,11 +7,11 @@ function Home() {
     return (
         <>
 
-            <HeroSection />
+            {/* <HeroSection />
 
             <FlexImages />
 
-            <ThirdComponent />
+            <ThirdComponent /> */}
 
             <section>
 
