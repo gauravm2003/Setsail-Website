@@ -72,11 +72,11 @@ The application follows a secure and modular MERN architecture.
 ## Run Locally
 
 1. Clone the Repository:
-   - git clone <[your-repo-url](https://github.com/gauravm2003/Setsail-Website/tree/main/Backend)>
+   - git clone github.com/gauravm2003/Setsail-Website
 2. Install deps:
    - Root: `npm install`
-   - Backend: `cd backend && npm install`
+   - Backend: `cd Backend && npm install`
 3. Start backend:
-   - `cd backend && npm run dev`
+   - `cd Backend && npm run dev`
 4. Start frontend:
-   - `npm run dev`
+   - `cd Frontend && npm run dev`
